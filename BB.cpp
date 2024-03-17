@@ -41,13 +41,7 @@ int main() {
         else {
             cnt += 1;
         }
-        if (cnt == kex[n1]) {
-            ans[cnt] = i;
-            n1 += 1;
-        }
-        if (n1 > (q - 1)) {
-            break;
-        }
+        
     }
     for (int i = 0; i < q; ++i) {
         cout << ans[kex1[i]] << ' ';
