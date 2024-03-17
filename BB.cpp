@@ -31,20 +31,7 @@ int main() {
     }
     sort(all(kex));
     sort(all(A));
-    for (ll i = 0; i < (1e10); ++i) {
-        if (ind < n) {
-            if (i != A[ind]) {
-                cnt += 1;
-            }
-            else {
-                ind += 1;
-            }
-        }
-        else {
-            cnt += 1;
-        }
-        
-    }
+    
     for (int i = 0; i < q; ++i) {
         cout << ans[kex1[i]] << ' ';
     }
