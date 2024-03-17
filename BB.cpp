@@ -8,8 +8,6 @@ using namespace std;
 
 using str = string;
 
-using p = pair<str, int>;
-
 #define all(x) x.begin(), x.end()
 
 using ll = long long;
