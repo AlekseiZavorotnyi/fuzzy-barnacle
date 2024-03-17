@@ -6,8 +6,6 @@
 
 using namespace std;
 
-using str = string;
-
 #define all(x) x.begin(), x.end()
 
 using ll = long long;
