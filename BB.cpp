@@ -45,12 +45,9 @@ int main() {
         else {
             cnt += 1;
         }
-        while (cnt == kex[n1]) {
+        if (cnt == kex[n1]) {
             ans[cnt] = i;
             n1 += 1;
-            if (n1 > (q - 1)) {
-                break;
-            }
         }
         if (n1 > (q - 1)) {
             break;
